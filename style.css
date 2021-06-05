@@ -1,0 +1,15 @@
+body {
+  /* Se colocar 100vh, ele cria barra de rolagem, e as arrows não seriam computadas no jogo */
+  height: 95vh;
+  width: 95;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: green;
+  text-transform: uppercase;
+}
